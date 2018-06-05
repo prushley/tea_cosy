@@ -5,25 +5,111 @@ body {
   font-size: 22pt;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
 }
 
-/* Header Styles */
 
+/* Header Styles */
+/* header has gap because of div before header starts? ie it's like a new line? */
 header {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   height: 69px;
   align-items: center;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 1;
 }
 
-logo {
+.logo {
+  display: flex;
+  margin-left: 10px;
   height: 50px;
 }
 
 header a {
   color: seashell;
+}
+
+/* Main container */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  justify-content: center;
+}
+
+/* Individual containers */
+
+/* Top container */
+
+.top-container {
+  padding-top: 69px;
+  display: flex;
+  height: 700px;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.image-overlay-text {
+  display: inline;
+  background-color: black;
+}
+
+/* Second Container */
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 900px;
+}
+
+.second-container-headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-and-captions-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  height: 700px;
+}
+
+.second-container-images {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+.second-container-captions {
+  display: flex;
+  justify-content: center;
+}
+
+/* Third Container*/
+
+.third-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.third-container-headline {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
