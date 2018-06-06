@@ -12,177 +12,149 @@
 
     <header>
       <div class="logo">
-        <img src="./resources/images/img-tea-cozy-logo.png">
+        <img src="./resources/images/img-tea-cozy-logo.png" alt ="" height=50px width=177px>
       </div>
-      <nav>
-        <span><a href="#">Mission</a></span>
-        <span><a href="#">Featured Tea</a></span>
-        <span><a href="#">Location</a></span>
+      <div class="navigation">
+        <a href="#">Mission</a>
+        <a href="#">Featured Tea</a>
+        <a href="#">Locations</a>
+      </div>
     </header>
 
-    <!--Main Content Container-->
+    <!-- OVERALL FLEX CONTAINER -->
+    <div class="flex-container">
 
-    <div class="content">
-
-      <!--Top Container-->
-
-      <div class="top-container">
-        <span class="image-overlay-text">
+      <!-- FLEX CONTAINER 1-->
+      <div class="mission">
+        <div class="mission-headline">
           <h2>Our Mission</h2>
           <h4>Handpicked, Artisanally Curated, Free Range, Sustainable,
             Small Batch, Fair Trade, Organic Tea</h4>
-        </span>
+        </div>
       </div>
 
-      <!--Second Container-->
-      <div class="second-container">
+      <!-- FLEX CONTAINER 2-->
+      <div class="container2">
 
-        <!--Headline and Subheadline Container-->
-
+        <!-- FLEX CONTAINER 2 HEADLINE CONTAINER-->
         <div class="second-container-headline">
-          <div class="headline">
-            <h2>Tea of the Month</h2>
-          </div>
-          <div class="subheadline">
-            <h4>What's Steeping at the Tea Cosy?</h4>
-          </div>
+          <div class="headline"><h2>Tea of the Month</h2></div>
+          <div class="text"><h4>What's Steeping at The Tea Cosy?</h4></div>
+        <!-- END OF FLEX CONTAINER 2 HEADLINE CONTAINER-->
         </div>
 
-        <!--Image and Captions Container-->
+        <!-- FLEX CONTAINER 2 TEA BOXES CONTAINER-->
+        <div class="second-container-tea-boxes-container">
 
-        <div class="image-and-captions-container">
-
-          <!--1st Image and Caption-->
-          <div class="image-and-captions-1">
-            <div class="second-container-first-image">
-              <div class="second-container-images">
-                <img src="./resources/images/img-berryblitz.jpg">
+          <!--first row container-->
+          <div class="first-row">
+            <!--box 1-->
+            <div class="tea-boxes">
+              <div class="images" id="fall">
+              </div>
+              <div class="captions">
+              Fall Berry Blitz Tea
               </div>
             </div>
-            <div class="second-container-captions">
-              <span>Fall Berry Blitz Tea</span>
+            <!--box 2-->
+            <div class="tea-boxes">
+              <div class="images" id="spiced">
+              </div>
+              <div class="captions">
+              Spiced Rum Tea
+              </div>
             </div>
+            <!--box 3-->
+            <div class="tea-boxes">
+              <div class="images" id="seasonal">
+              </div>
+              <div class="captions">
+              Seasonal Donuts
+              </div>
+            </div>
+
+          <!--end of first row container-->
           </div>
 
-          <!--2nd Image and Caption-->
-          <div class="image-and-captions-2">
-            <div class="second-container-second-image">
-              <div class="second-container-images">
-                <img src="./resources/images/img-spiced-rum.jpg">
+          <!--second row container-->
+          <div class="second-row">
+            <!--box 4-->
+            <div class="tea-boxes">
+              <div class="images" id="myrtle">
               </div>
-              <div class="second-container-captions">
-                <span>Spiced Rum Tea</span>
+              <div class="captions">
+              Myrtle Ave Tea
               </div>
             </div>
+            <!--box 5-->
+            <div class="tea-boxes">
+              <div class="images" id="bedford">
+              </div>
+              <div class="captions">
+              Bedford Bizarre Tea
+              </div>
+            </div>
+          <!--end of second row container-->
           </div>
-
-          <!--3rd Image and Caption-->
-          <div class="image-and-captions-3">
-            <div class="second-container-third-image">
-              <div class="second-container-images">
-                <img src="./resources/images/img-donut.jpg">
-              </div>
-              <div class="second-container-captions">
-                <span>Seasonal Donut</span>
-              </div>
-            </div>
-          </div>
-
-          <!--4th Image and Caption-->
-          <div class="image-and-captions-4">
-            <div class="second-container-fourth-image">
-              <div class="second-container-images">
-                <img src="./resources/images/img-myrtle-ave.jpg">
-              </div>
-              <div class="second-container-captions">
-                <span>Myrtle Ave Tea</span>
-              </div>
-            </div>
-          </div>
-
-          <!--5th Image and Caption-->
-          <div class="image-and-captions-5">
-            <div class="second-container-fifth-image">
-              <div class="second-container-images">
-                <img src="./resources/images/img-bedford-bizarre.jpg">
-              </div>
-            </div>
-            <div class="second-container-captions">
-                <span>Bedford Bizarre Tea</span>
-            </div>
-          </div>
+        <!-- END OF FLEX CONTAINER 2 TEA BOXES CONTAINER-->
         </div>
 
-
+      <!-- END OF FLEX CONTAINER 2-->
       </div>
 
-      <!--Third Container-->
-      <div class="third-container">
+      <!--FLEX CONTAINER 3-->
+      <div class="container3">
 
-        <!--Headline Container-->
+        <!--Locations text box container-->
+        <h2 class="third-container-headline">Locations</h2>
 
-        <div class="third-container-headline">
-          <div class="headline">
-            <span>Locations</span>
+        <!--locations details container-->
+        <div class="locations-container">
+
+          <!--3x locations details-->
+          <div class="locations-details">
+            <h3>Downtown</h3>
+            <p>384 West 4th St</p>
+            <p>Suite 108</p>
+            <p>Portland, Maine</p>
           </div>
+
+          <div class="locations-details">
+            <h3>East Bayside</h3>
+            <p>3433 Phishermans Avenue</p>
+            <p>(Northwest Corner)</p>
+            <p>Portland, Maine</p>
+          </div>
+
+          <div class="locations-details">
+            <h3>Oakdale</h3>
+            <p>515 Crescent Avenue</p>
+            <p>Second Floor</p>
+            <p>Portland, Maine</p>
+          </div>
+
+        <!--End of locations details container-->
         </div>
 
-          <!--Location Container 1-->
-          <div class="Location-1">
-            <div class="location-title">
-              <span>Downtown<br></span>
-            </div>
-            <div class="location-detail">
-              <span>384 West 4th St<br></span>
-              <span>Suite 108<br></span>
-              <span>Portland, Maine<br></span>
-            </div>
-          </div>
-
-          <!--Location Container 2-->
-          <div class="Location-2">
-            <div class="location-title">
-              <span>East Bayside<br></span>
-            </div>
-            <div class="location-detail">
-              <span>3344 Phishermans Avenue<br></span>
-              <span>(Northwest Corner)<br></span>
-              <span>Portland, Maine<br></span>
-            </div>
-          </div>
-
-          <!--Location Container 3-->
-          <div class="Location-3">
-            <div class="location-title">
-              <span>Oakdale<br></span>
-            </div>
-            <div class="location-detail">
-              <span>515 Crescent Avenue<br></span>
-              <span>Second Floor<br></span>
-              <span>Portland, Maine<br></span>
-            </div>
-          </div>
-
+      <!--END OF FLEX CONTAINER 3-->
       </div>
 
-      <!--Fourth Container-->
-      <div class="fourth-container">
-        <div class="headline">
-          <span>The Tea Cosy</span>
-        </div>
-        <div class="contact-info">
-          <span>contact@theteacosy.com</span>
-          <span>917-555-8904</span>
-        </div>
+      <!--FLEX CONTAINER 4-->
+      <div class="container4">
+        <div class="contact"><h2>The Tea Cozy</h2></div>
+        <div class="contact"><h5>contact@theteacosy.com</h5></div>
+        <div class="contact"><h5>917-555-8904</h5></div>
+
+      <!--END OF FLEX CONTAINER 4-->
       </div>
 
-    </div>
+      <!--FOOTER-->
+      <div class="footer">
+        <div class="copyright">copyright The Tea Cosy 2017</div>
+      </div>
 
-    <!--Footer Section-->
-    <div class="footer">
-      <span>copyright The Tea Cosy 2017</span>
+    <!-- END OF OVERALL FLEX CONTAINER-->
     </div>
 
   </body>
-
 </html>
